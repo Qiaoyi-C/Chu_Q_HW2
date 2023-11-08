@@ -9,7 +9,7 @@ html, body{
 
 body{
 
-    background-color: #009BD9;
+    background-color: #ffc800;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 0;
@@ -30,7 +30,7 @@ header{
     }
 
     #character_nav{
-        background-color: #878686;
+        background-color: #0e4ca3;
         background-image: url(../images/background.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -72,6 +72,7 @@ header{
     }
     
     article, #instructions{
+        color: #2d2d2d;
         padding: 20px;
     }
     
@@ -108,14 +109,14 @@ footer{
 
 .sticky_footer{
     height: 80px;
-    background-color: #0676a3;
+    background-color: #5c5c5c;
     position: sticky;
     top: 100%;
 }
 
 .lightbox{
     position: absolute;
-    top: 0;
+    top: 50px;
     left: 0;
 
     width: 100vw;
@@ -127,7 +128,7 @@ footer{
 
     background-size: 55vh;
     background-position: 50px top;
-    display: none;
+    display: none;    
 
 }
 
@@ -167,13 +168,14 @@ footer{
 
 .lightbox_close:hover{
     opacity: 0.5;
-    color: red;
+    color: #FCCF00;
 }
 
 .lightbox article{
     width: 55%;
     margin-left: 40%;
     padding-top: 50px;
+    color: #fff;
 }
 
 .lb_text, .lb_heading{
@@ -182,6 +184,7 @@ footer{
 
 .lb_text{
     line-height: 26px;
+    
 }
 
 /* .*/
